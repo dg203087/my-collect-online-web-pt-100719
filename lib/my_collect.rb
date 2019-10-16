@@ -1,14 +1,14 @@
-def my_collect(collection)
+def my_collect(array)
   i = 0 
-  array = []
-  while i < collection.length 
-    array << yield(collection[i])
+  collection = []
+  while i < array.length 
+    collection << yield(array[i])
     i += 1 
   end
-  array 
+  collection
 end 
 
 
+#my_collect
 
-
-hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+#hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
