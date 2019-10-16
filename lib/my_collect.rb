@@ -7,8 +7,3 @@ def my_collect(array)
   end
   collection
 end 
-
-
-#my_collect
-
-#hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
